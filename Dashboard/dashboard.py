@@ -29,7 +29,6 @@ min_date = all_df["dteday"].min()
 max_date = all_df["dteday"].max()
 
 with st.sidebar:
-    st.image("Dashboard/bike_rent.png")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
