@@ -48,7 +48,7 @@ seasonal_rent_df = create_seasonal_rent_df(main_df)
 hourly_rent_df = create_hourly_rent_df(main_df)
 
 
-st.header('Bike Sharing Dashboard 🚲')
+st.header('Bike Sharing Dashboard')
 
 st.subheader('Daily Rentals Overview')
 col1, col2, col3 = st.columns(3)
