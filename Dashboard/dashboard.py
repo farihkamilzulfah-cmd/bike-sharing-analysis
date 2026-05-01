@@ -65,7 +65,7 @@ with col3:
     total_registered = main_df.registered.sum()
     st.metric("Penyewa Terdaftar", value=f"{total_registered:,}")
 
-st.subheader("Performa Penyewaan Berdasarkan Musim")
+st.subheader('Bagaimana pengaruh berbagai musim (spring, summer, fall, winter) terhadap total penyewaan sepeda harian sepanjang tahun 2012?')
 
 fig, ax = plt.subplots(figsize=(10, 6))
 
@@ -92,7 +92,7 @@ with st.expander("Lihat Insight Musim"):
         Biasanya, musim **Fall** atau **Summer** mendominasi karena cuaca yang mendukung."""
     )
 
-st.subheader("Pola Penyewaan per Jam: Hari Kerja vs Hari Libur")
+st.subheader('Bagaimana perbedaan tren penyewaan sepeda per jam antara hari kerja dan hari libur sepanjang periode tahun 2011 hingga 2012?')
 
 fig, ax = plt.subplots(figsize=(12, 6))
 
